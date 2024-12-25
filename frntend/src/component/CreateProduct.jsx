@@ -12,7 +12,7 @@ export default function CreateProduct() {
         description: '',
         inStock: false,
     })
-    const URL = "http://localhost:5000";
+    const URL = "https://clothingapp-p5xm.onrender.com";
 
     const handleChange = (event)=>{
         const {name, value} = event.target;

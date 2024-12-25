@@ -5,7 +5,7 @@ export default function DisplayData() {
     const [selectedItemId, setSelectedItemId] = useState(null);
 
     console.log(clothDatas);
-    const URL = 'http://localhost:5000';
+    const URL = 'https://clothingapp-p5xm.onrender.com';
 
     const displyData = async()=>{
         try{
